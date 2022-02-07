@@ -1,0 +1,46 @@
+.Coantinar{
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+
+}
+
+.Coantinar .ft-row ul li{
+    list-style: none;
+    margin: 7px;
+}
+.ft-row ul li a{
+    text-decoration: none;
+    
+   
+}
+footer{
+    background-color: rgb(215, 250, 255);
+    margin-top: 500px;
+    box-shadow: 1px 0px 3px 0px;
+    padding: 10px;
+
+}
+.Star img{
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top:17px ;
+
+}
+.Star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media(max-width: 520px){
+   .Coantinar{
+       flex-direction: column;
+   } 
+
+}
